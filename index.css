@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: black;
+    width: 100%;
+}
+
+.title-in{
+    text-align: center;
+}
+
+.email{
+    color: gray;
+}
+
+.pass{
+    color: gray;
+    
+}
+
+.info{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.glav-info{
+    width: 700px;
+    height: 400px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid gray;
+    
+}
+
+label {
+    display: block;
+    margin-top: 50px;
+    
+   
+  }
+  ​
+  button {
+    margin-top: 2rem;
+  }
+
+input{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding: 0 0 10px 0;
+    margin-top: 10px;
+    
+}
+
+.input-title a{
+    text-decoration: none;
+    color: gray;
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.form-btn{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    border: 1px solid;
+    border-radius: 7px;
+    height: 60px;
+    width: 600px;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.form-btn:hover{
+    transition: 0.5s;
+    background-color: pink;
+}
